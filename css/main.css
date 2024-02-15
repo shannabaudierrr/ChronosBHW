@@ -284,7 +284,7 @@ h1{
 
 .portfolio-header{
   grid-area: header;
-  background-color: rgb(176, 155, 129);
+  background-color: white
 }
 .portfolio-body{
   grid-area: body;
@@ -296,8 +296,8 @@ h1{
 }
 /* HEADER */
 .header-elements img{
-  max-width: 115px;
   height: auto;
+  width: auto;
 }
 @media (max-width: 600px){
   .header-elements img{
@@ -318,7 +318,6 @@ h1{
   margin-right: auto;
   text-align: left;
   margin-left: 40px;
-  color: rgb(51, 34, 19);
 }
 @media (max-width: 600px){
   .header-elements{
@@ -326,28 +325,15 @@ h1{
     margin-right: 15px;
   }
 }  
-.name a{
-  font-size: 46px;
-  font-family: 'Playfair Display', serif;
-  font-weight: 500;
-  color: rgb(51, 34, 19);
+.title-blurb a{
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #3d99a6
 }
-.name :hover{
-  text-decoration: underline;
-}  
 @media (max-width: 600px){
   .name a{
     font-size: 33px;
-  }
-}
-.job-title{
-  font-size: 26px;
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
-}
-@media (max-width: 600px){
-  .job-title{
-    font-size: 20px;
   }
 }
 /* NAVIGATION */
