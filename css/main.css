@@ -389,6 +389,7 @@ h1{
 .homepage{
   margin: 40px;
   display: flex;
+  flex-direction: column-reverse;
   justify-content: center;
   gap: 60px;
   align-items: center;
@@ -402,20 +403,19 @@ h1{
   }
 } 
 .homepage img{
-  max-width: 400px;
-  height: auto;
+  max-width: 100%;
 }
 
 @media (max-width: 600px){
   .homepage img{
-    max-width: 150pt;
+    max-width: 60%;
     height: auto;
     justify-content: center;
   }
 } 
 .homepage-text{
-  max-width: 75%;
-  font-size: 26px;
+  width: auto;
+  font-size: 14px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
