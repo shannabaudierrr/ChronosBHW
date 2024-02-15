@@ -311,13 +311,11 @@ h1{
 .header-elements{
   display: flex;
   gap: 20px;
-  padding-bottom: 13px;
-  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-top: 10px;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  text-align: left;
-  margin-left: 40px;
 }
 @media (max-width: 600px){
   .header-elements{
@@ -325,17 +323,6 @@ h1{
     margin-right: 15px;
   }
 }  
-.title-blurb a{
-  font-size: 30px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  color: #3d99a6
-}
-@media (max-width: 600px){
-  .name a{
-    font-size: 33px;
-  }
-}
 /* NAVIGATION */
 .navigation{
   display: flex;
